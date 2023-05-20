@@ -36,7 +36,24 @@ export default function Navbar() {
             </nav>
 
             {isOpen && (
-                    <div className="flex w-[90%] h-40 rounded-b-2xl bg-darkGray"></div>
+                    <div className="flex w-[90%] h-40 rounded-b-2xl bg-neutral-800">
+                        <div className="flex items-center justify-center w-full">
+                            <ul className="text-center w-full">
+                                <li className="p-2">
+                                    <a href="#" className="flex justify-center w-full">Home</a>
+                                </li>
+                                <li className="p-2">
+                                    <a href="#" className="flex justify-center w-full">About</a>
+                                </li>
+                                <li className="p-2">
+                                    <a href="#" className="flex justify-center w-full">Projects</a>
+                                </li>
+                                <li className="p-2">
+                                    <a href="#" className="flex justify-center w-full">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 )
             }
       </div>
