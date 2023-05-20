@@ -3,7 +3,7 @@ import Navbar  from '../components/navbar'
 
 export default function Home() {
   return (
-    <main className='bg-gradient-to-b from-blackBean to-darkPurple flex h-screen'>
+    <main className='bg-gradient-to-b from-blackBean to-darkPurple h-screen'>
       <Navbar/>
     </main>
   )
