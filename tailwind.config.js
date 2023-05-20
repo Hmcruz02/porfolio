@@ -9,7 +9,8 @@ module.exports = {
     extend: {
       colors: {
         'blackBean': '#160C28',
-        'darkPurple': '#280004'
+        'darkPurple': '#280004',
+        'darkGray': "#1E1E1E"
       },
     },
   },
