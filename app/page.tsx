@@ -1,10 +1,12 @@
 import Image from 'next/image'
 import Navbar  from '../components/navbar'
+import Home from '../components/home'
 
-export default function Home() {
+export default function Index() {
   return (
     <main className='bg-gradient-to-b from-blackBean to-darkPurple h-screen'>
-      <Navbar/>
+        <Navbar/>
+        <Home/>
     </main>
   )
 }
