@@ -40,16 +40,16 @@ export default function Navbar() {
                         <div className="flex items-center justify-center w-full">
                             <ul className="text-center w-full">
                                 <li className="p-2">
-                                    <a href="#" className="flex justify-center w-full">Home</a>
+                                    <a href="#home" className="flex justify-center w-full">Home</a>
                                 </li>
                                 <li className="p-2">
-                                    <a href="#" className="flex justify-center w-full">About</a>
+                                    <a href="#about" className="flex justify-center w-full">About</a>
                                 </li>
                                 <li className="p-2">
-                                    <a href="#" className="flex justify-center w-full">Projects</a>
+                                    <a href="#projects" className="flex justify-center w-full">Projects</a>
                                 </li>
                                 <li className="p-2">
-                                    <a href="#" className="flex justify-center w-full">Contact</a>
+                                    <a href="#contact" className="flex justify-center w-full">Contact</a>
                                 </li>
                             </ul>
                         </div>
