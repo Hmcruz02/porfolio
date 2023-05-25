@@ -4,9 +4,14 @@ import Home from '../components/home'
 
 export default function Index() {
   return (
-    <main className='bg-gradient-to-b from-blackBean to-darkPurple h-screen'>
+    <main className='bg-gradient-to-b from-blackBean to-darkPurple min-h-screen overflow-y-auto'>
         <Navbar/>
-        <Home/>
+        <div className='container mx-auto pt-24 w-[90%]'>
+          <div className='w-full bg-neutral-500 mt-6 p-6 rounded-2xl'>
+            <Home/>
+          </div>
+        </div>
+
     </main>
   )
 }
