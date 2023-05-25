@@ -1,6 +1,9 @@
 import Image from 'next/image'
 import Navbar  from '../components/navbar'
 import Home from '../components/home'
+import About from '../components/about'
+import Projects from '../components/projects'
+import Contact from '../components/contact'
 
 export default function Index() {
   return (
@@ -9,6 +12,9 @@ export default function Index() {
         <div className='container mx-auto pt-24 w-[90%]'>
           <div className='w-full bg-neutral-500 mt-6 p-6 rounded-2xl'>
             <Home/>
+            <About/>
+            <Projects/>
+            <Contact/>
           </div>
         </div>
 
