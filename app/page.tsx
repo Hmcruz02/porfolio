@@ -7,9 +7,9 @@ import Contact from '../components/contact'
 
 export default function Index() {
   return (
-    <main className='bg-gradient-to-b from-blackBean to-darkPurple min-h-screen overflow-y-auto'>
+    <main className='bg-gradient-to-b from-blackBean to-darkPurple overflow-y-auto'>
         <Navbar/>
-        <div className='container mx-auto pt-24 w-[90%]'>
+        <div className='container mx-auto pt-24 pb-6 w-[90%]'>
           <div className='w-full bg-neutral-500 mt-6 p-6 rounded-2xl'>
             <Home/>
             <About/>
