@@ -36,20 +36,20 @@ export default function Navbar() {
             </nav>
 
             {isOpen && (
-                    <div className="flex w-[90%] h-40 rounded-b-2xl bg-neutral-800">
+                    <div className={`flex w-[90%] h-40 rounded-b-2xl bg-neutral-800 duration-500 transition-all ${isOpen? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}>
                         <div className="flex items-center justify-center w-full">
                             <ul className="text-center w-full">
                                 <li className="p-2">
-                                    <a href="#home" className="flex justify-center w-full">Home</a>
+                                    <a href="#home" onClick={() => setIsOpen(!isOpen)} className="flex justify-center w-full">Home</a>
                                 </li>
                                 <li className="p-2">
-                                    <a href="#about" className="flex justify-center w-full">About</a>
+                                    <a href="#about" onClick={() => setIsOpen(!isOpen)} className="flex justify-center w-full">About</a>
                                 </li>
                                 <li className="p-2">
-                                    <a href="#projects" className="flex justify-center w-full">Projects</a>
+                                    <a href="#projects" onClick={() => setIsOpen(!isOpen)} className="flex justify-center w-full">Projects</a>
                                 </li>
                                 <li className="p-2">
-                                    <a href="#contact" className="flex justify-center w-full">Contact</a>
+                                    <a href="#contact" onClick={() => setIsOpen(!isOpen)} className="flex justify-center w-full">Contact</a>
                                 </li>
                             </ul>
                         </div>
