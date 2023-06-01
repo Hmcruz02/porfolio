@@ -5,7 +5,7 @@ export default function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
-        <div className="flex flex-col items-center justify-center fixed w-full">
+        <div className="flex flex-col items-center justify-center fixed w-full text-fuchsia-300">
             <nav className={`flex items-center w-[90%] h-20 bg-darkGray mt-4 ${isOpen? 'rounded-t-2xl':'rounded-2xl'}`}>
                 <div className="flex items-center">
                     <h1 className= 'pl-4 text-5xl'>
