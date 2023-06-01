@@ -5,3 +5,7 @@
 * {
   scroll-behavior: smooth;
 }
+
+section:not(#home) {
+  scroll-margin-top: 100px;
+}
