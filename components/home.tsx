@@ -8,7 +8,7 @@ export default function Home() {
             <div className="">
                 <h1 className="text-4xl font-bold my-2 ">Howdy!</h1>
                 <h1 className="text-4xl font-bold my-2">I'm <span>Herson </span></h1>
-                <img src="/headshot.jpg" alt="Picture of Herson" className="rounded-2xl border-2 border-gray-900 my-2"/>
+                <img src="/headshot.jpg" alt="Picture of Herson" className="rounded-2xl border-2 border-gray-900 my-2 shadow-md shadow-darkPurple"/>
                 
                 <div className="flex justify-around my-2 ">
                     <Link target="_blank" href="https://github.com/Hmcruz02">
